@@ -2,3 +2,8 @@
         margin: inherit auto 0;
         float: none;
 }
+
+body {
+        margin: 0;
+        padding: 0;
+}
