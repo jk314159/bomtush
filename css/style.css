@@ -1,3 +1,4 @@
 .dropdown-toggle-no-caret:after{
-    display: none;
+    margin: 0 !important;
+    border: none !important;
 }
