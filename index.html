@@ -10,30 +10,29 @@
 		<title>Bomtush</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+		<nav class="collapse navbar-collapse">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#"><h1>bomtush</h1></a>
+					<a class="navbar-brand" href="#">bomtush</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li>
-						<div class="dropdown">
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-								sort by
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a href="#">relevant</a></li>
-								<li><a href="#">irrelevant</a></li>
-								<li><a href="#">active</a></li>
-								<li><a href="#">inactive</a></li>
-								<li><a href="#">liked</a></li>
-								<li><a href="#">disliked</a></li>
-								<li><a href="#">new</a></li>
-								<li><a href="#">old</a></li>
-								<li><a href="#">random</a></li>
-							</ul>
-						</div>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sort by <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">relevance</a></li>
+							<li><a href="#">irrelevance</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">activity</a></li>
+							<li><a href="#">inactivity</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">liked</a></li>
+							<li><a href="#">disliked</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">new</a></li>
+							<li><a href="#">old</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">random!</a></li>
+						</ul>
 					</li>
 				</ul>
 			</div>
