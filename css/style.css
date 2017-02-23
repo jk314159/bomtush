@@ -1,4 +1,4 @@
 .card-center {
-        margin: 0 auto;
+        margin: inherit auto 0;
         float: none;
 }
