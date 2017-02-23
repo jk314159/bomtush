@@ -6,6 +6,11 @@
 body {
         margin: 0;
         padding: 0;
+        max-width: 800px;
+}
+
+html {
+        background-color: #0275D8;
 }
 
 .row {
