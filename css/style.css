@@ -1,4 +1,4 @@
-.dropdown-toggle-no-caret::after{
+.dropdown-toggle::after{
     margin: 0 !important;
     border: none !important;
 }
